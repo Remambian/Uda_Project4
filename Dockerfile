@@ -2,11 +2,11 @@ FROM python:3.7.3-stretch
 
 ## Step 1:
 # Create a working directory
-WORKDIR /Uda_Project4
+WORKDIR /UdacityProject
 
 ## Step 2:
 # Copy source code to working directory
-COPY app.py /Uda_Project4/
+COPY app.py /UdacityProject/
 
 ## Step 3:
 # Install packages from requirements.txt
