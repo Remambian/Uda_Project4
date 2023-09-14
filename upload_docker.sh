@@ -10,8 +10,8 @@ dockerpath=udacitydocker/app/
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-sudo docker login -u remambian@gmail.com -p Udacity@2023
+docker login -u remambian@gmail.com -p Udacity@2023
 
 # Step 3:
 # Push image to a docker repository
-sudo docker push $dockerpath
+ docker push $dockerpath
