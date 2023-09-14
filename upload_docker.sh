@@ -10,6 +10,7 @@ dockerpath=remambian/app
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+sudo docker tag app:latest remambian/app
 sudo docker login -u remambian@gmail.com -p Udacity@2023
 
 # Step 3:
