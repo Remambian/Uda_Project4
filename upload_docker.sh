@@ -10,8 +10,9 @@ dockerpath=app
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login -u remambian@gmail.com -p Udacity@2023
+sudo docker tag api:latest api
+sudo docker login -u remambian@gmail.com -p Udacity@2023
 
 # Step 3:
 # Push image to a docker repository
- docker push $dockerpath
+ sudo docker push $dockerpath
