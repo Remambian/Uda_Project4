@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=remambian/udacityproj4
+dockerpath=remambian/app
 
 # Step 2:  
 # Authenticate & tag
