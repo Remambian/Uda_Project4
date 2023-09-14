@@ -5,12 +5,11 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=app
+dockerpath=remambian/udacityproj4
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-sudo docker tag api:latest api
 sudo docker login -u remambian@gmail.com -p Udacity@2023
 
 # Step 3:
