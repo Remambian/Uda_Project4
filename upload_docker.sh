@@ -5,7 +5,7 @@
 
 # Step 1:
 Create dockerpath
-dockerpath=UdacityDocker/app/
+dockerpath=udacitydocker/app/
 
 # Step 2:  
 # Authenticate & tag
@@ -16,4 +16,4 @@ sudo docker login $registry -u remambian@gmail.com -p Udacity@2023
 # Step 3:
 # Push image to a docker repository
 
-sudo docker push UdacityDocker/app/
+sudo docker push udacitydocker/app/
