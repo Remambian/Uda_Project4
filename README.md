@@ -1,4 +1,7 @@
 # Uda_Project4
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Remambian/Uda_Project4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Remambian/Uda_Project4/tree/main)
+
 # Project Overview:
 
 In this project, you will apply the skills you have acquired on Microservice at Scale using AWS & Kubernetes.
@@ -46,4 +49,3 @@ You are given a pre-trained, sklearn model that has been trained to predict hous
    4. Complete the exeuction of the run_kubernetes.sh & make_predictions.sh file
    5. Save the outputs in the kubernetes_output.txt file
    
-     
